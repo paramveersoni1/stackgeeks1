@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    nav .nav-list .nav-item {
+      display: flex !important;
+    }
+    nav .nav-list .nav-link {
+      display: flex !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+      padding: 1rem 0;
+    }
+    nav .nav-list {
+      display: block;
+    }
+    nav .nav-list .nav-logo #nav-toggle {
+      display: block;
+    }
+    nav .nav-list .nav-link {
+      padding: 1.5rem 0;
+    }
+    nav .nav-list .nav-link image {
+      position: absolute;
+      right: 1rem;
+      top: 1.8rem;
+    }
+    nav .nav-list .nav-link .nav-drop {
+      top: 1rem;
+      box-shadow: unset;
+      width: unset;
+      margin-left: -1rem;
+      opacity: 0;
+      visibility: hidden;
+    }
+    nav .nav-list .nav-link:after {
+      top: 3em;
+      left: 0.08em;
+      transition: width 0.3s;
+    }
+    nav .nav-list .nav-link:hover::after {
+      width: 4em;
+    }
+    nav .nav-list .nav-link:hover ul {
+      position: relative;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
