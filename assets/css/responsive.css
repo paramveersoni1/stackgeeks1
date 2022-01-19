@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 1599px) and (min-width:1350px){
   section.first-section {
-    padding: 14% 0 65px 0;
+    padding: 14% 0 40px 0;
    }
    .container {
     max-width: 90%;
@@ -210,6 +210,13 @@ nav .nav-list .nav-link .nav-drop {
   opacity: 0;
   visibility: hidden;
 }
+ul.nav-drop {
+  display: none !important;
+}
+
+li.nav-link:hover ul.nav-drop{
+   display: block !important;
+}
 
 }
 
@@ -320,7 +327,7 @@ nav .nav-list .nav-link .nav-drop {
     h2.main-title {
       color: #000000;
       font-family: Gilroy-Bold;
-      font-size: 40px;
+      font-size: 32px;
       letter-spacing: 0;
       line-height: 48px;
     }
@@ -510,13 +517,30 @@ nav .nav-list .nav-link .nav-drop {
   section.first-section {
     padding: 30% 0 24px 0;
    }
+
+   section.bottom-section {
+    padding: 24px 0 20%;
+    background: #110f0e;
+}
+section.info-section {
+  border-radius: 0 0 40px 40px;
+  background-color: #110F0E;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  padding: 19px;
+  margin: 0 1%;
+  width: 98%;
+  margin-bottom: -2px;
+  z-index: 11111;
+}
   }
 
   @media (max-width: 481px){
    
 
     li.link_name {
-      font-size: 13px;
+      font-size: 12px;
       position: relative;
       text-align: initial;
   }
