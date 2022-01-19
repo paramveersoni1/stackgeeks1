@@ -273,10 +273,12 @@ section.first-section {
 p.main-para.next-para {
   font-family: Gilroy-Bold;
   font-size: 20px;
+  margin-top: 0px;
   letter-spacing: 0;
+  margin-bottom: 20px;
   padding-bottom: 16px;
   line-height: 34px;
-  margin-bottom: 20px;
+ 
   position: relative;
 }
 p.main-para.next-para::after {
@@ -336,7 +338,7 @@ p.main-para.next-para.xcfd::after {
 .justify-content{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .botot-dnf.mt-4 {
   display: flex;

@@ -192,6 +192,24 @@ button.btn.main-btn.mt-4 {
   display: none;
 }
 
+nav .nav-list .nav-link img {
+  position: absolute;
+  right: -8px;
+  top: 29px;
+  transition: transform 0.3s;
+}
+li.nav-link {
+  display: flex;
+  flex-direction: column;
+}
+nav .nav-list .nav-link .nav-drop {
+  top: 11px;
+  /* box-shadow: unset; */
+  width: 100%;
+  margin-left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
 
 }
 
@@ -502,6 +520,12 @@ button.btn.main-btn.mt-4 {
       position: relative;
       text-align: initial;
   }
+  section.last-section {
+    margin-top: 64%;
+}
+section.first-section {
+  padding: 40% 0 24px 0;
+}
 
   }
 
