@@ -20,6 +20,12 @@
    section.lastdlsj {
     margin-top: -11%;
    }
+   .background {
+    height: 555px;
+    /* background: saddlebrown; */
+    background-position: inherit;
+    background-size: 100%;
+   }
 }
 @media screen and (max-width: 1749px) and (min-width:1600px){
   .container {
