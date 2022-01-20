@@ -626,53 +626,12 @@
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/style.js"></script>
+ 
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="assets/js/style.js"></script>
 </body>
 
-<script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    autoplay: true,
-    autoplayTimeout: 500,
-    responsive: {
-      0: {
-        items: 3
-      },
-      600: {
-        items: 6
-      },
-      500: {
-        items: 6
-      }
-    }
-  })
 
-  function onClose() {
-    document.getElementById('croses').style.display = "none";
-  }
-
-  let first = false;
-
-  function toggle() {
-    if (!first) {
-      first = true;
-      document.getElementById('fdsd').style.display = "block";
-    } else {
-      first = false;
-      document.getElementById('fdsd').style.display = "none";
-    }
-  }
-
-  AOS.init({
-    offset: 100,
-    duration: 500,
-    easing: 'liner',
-  });
-
-</script>
 
 </html>

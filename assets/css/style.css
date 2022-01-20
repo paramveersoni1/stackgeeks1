@@ -47,7 +47,6 @@ body {
 }
 
 .top_section {
-  /* height: 56px; */
   padding: 28px 0;
   background: #000;
 }
@@ -753,6 +752,9 @@ footer .content .link-boxes .box{
 .content .link-boxes .box li a:hover{
   opacity: 1;
   text-decoration: underline;
+}
+.owl-nav {
+  display: none;
 }
 .content .link-boxes .input-box{
   margin-right: 55px;
