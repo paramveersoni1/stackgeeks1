@@ -271,11 +271,16 @@ img.d-lg-none.d-block.sdfsd {
   letter-spacing: 0;
   line-height: 42px;
 }
+.background.grwe {
+  /* overflow: hidden; */
+  position: relative;
+}
 .first-card {
   background-color: #F8AD03;
   padding: 72px;
   position: absolute;
   bottom: 51%;
+  width: 100%;
   margin-right: 14px;
 }
 .secton-parant img {
@@ -938,3 +943,7 @@ ul.nav-drop a {
     flex-direction: column;
     justify-content: center;
 }
+
+
+
+/* case stady page... */
