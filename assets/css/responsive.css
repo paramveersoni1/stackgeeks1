@@ -26,6 +26,8 @@
     background-position: inherit;
     background-size: 100%;
    }
+
+
 }
 @media screen and (max-width: 1749px) and (min-width:1600px){
   .container {
@@ -245,6 +247,53 @@ li.nav-link:hover ul.nav-drop{
 }
 img.d-lg-none.d-block.sdfsd.aos-init.aos-animate {
   width: 100%;
+}
+
+.top-of-section {
+  margin-top: 0;
+}
+h2.main-title.sdfgsd {
+  margin-top: 0;
+}
+.fsdjsdfj{
+  background: unset;
+}
+.first-card.sdfs {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.top_sectionsfjhs {
+  display: flex;
+  margin-top: 0;
+  gap: 32px;
+}
+
+.main-section {
+  margin-top: 40px;
+}
+.w-75.mx-auto {
+  width: 100% !important;
+}
+
+.fixed {
+  position: unset;
+  z-index: 1111111;
+  width: 100%;
+}
+
+nav#desktop-nav{
+  display: none;
+}
+
+
+.sddsdd {
+  position: unset;
+  z-index: 1111;
+  background: transparent;
 }
 
 
@@ -488,7 +537,33 @@ img.d-lg-none.d-block.sdfsd.aos-init.aos-animate {
   letter-spacing: 0;
   line-height: 14px;
   text-decoration: underline;
-}
+  }
+
+  .first-dfkjs a {
+    font-size: 16px;
+   }
+
+   img.sdds {
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  h2.main-title.dsf.aos-init.aos-animate {
+    font-size: 24px !important;
+    line-height: 30px;
+  }
+  .skdj h3 {
+    color: #FFFFFF;
+    /* font-family: "SF Pro Text"; */
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 15px;
+    position: relative;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 0;
+  }
+
 
   }
 
@@ -584,6 +659,47 @@ section.info-section {
 .dfs {
   width: 44%;
 }
+
+.d-flex.mt-3.aos-init.aos-animate {
+  display: block !important;
+}
+
+.black-section {
+  padding: 24px 0 24px 24px;
+  border-radius: 8px;
+  background-color: #110F0E;
+}
+.sdjfhj h4 {
+  color: #717171;
+  /* font-family: "SF Pro Text"; */
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.sdjfhj.aos-init.aos-animate br {
+  display: none;
+}
+
+.block-content ul li h2 {
+  color: #FFFFFF;
+  /* font-family: "SF Pro Text"; */
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+.first-dfkjs a {
+  font-size: 11px;
+}
+.fourth-section{
+  padding: 16px;
+  margin-bottom: 32px;
+}
+.ui-cards.aos-init.aos-animate h2.main-title.aos-init.aos-animate {
+  margin-bottom: 10px;
+}
+
   }
 
   @media (max-width: 481px){
@@ -597,6 +713,8 @@ section.info-section {
   section.last-section {
     margin-top: 64%;
 }
+
+
 section.first-section {
   padding: 40% 0 24px 0;
 }
@@ -610,6 +728,14 @@ section.first-section {
   left: 0px;
   bottom: 4px;
 }
+
+.skdj h3 {
+  color: #FFFFFF;
+  /* font-family: "SF Pro Text"; */
+  font-size: 16px;
+}
+
+
 
   }
 
