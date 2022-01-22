@@ -26,8 +26,21 @@
     background-position: inherit;
     background-size: 100%;
    }
-
-
+   .usdnf {
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: -8px;
+  }
+   .usdnf img {
+    transform: scale(1);
+    height: 553px;
+    width: 280px;
+   }
+   .swiper-slide.swiper-slide-active img {
+    opacity: 1;
+    border-radius: 30px;
+   }
 }
 @media screen and (max-width: 1749px) and (min-width:1600px){
   .container {
@@ -307,7 +320,20 @@ nav#desktop-nav{
 section.info-section{
   width: 40%;
 }
-
+.usdnf {
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 20px;
+  width: 100%;
+  z-index: 111;
+  height: 100%;
+}
+.usdnf img {
+  transform: scale(1);
+  width: 240px;
+  height: 487px;
+}
 
 }
 
@@ -578,6 +604,24 @@ section.info-section{
   section.info-section {
     width: 54%;
   }
+  .usdnf{
+    top: -9px;
+  }
+
+.swiper-full-mobile .swiper-slide img{
+  height: auto;
+  object-fit: cover;
+}
+
+.usdnf img {
+  transform: scale(1);
+  width: auto;
+  height: 376px;
+}
+#services {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
 
   }
 
@@ -714,6 +758,16 @@ section.info-section {
   margin-bottom: 10px;
 }
 
+.usdnf img {
+  transform: scale(1);
+  width: auto;
+  height: 104%;
+}
+.usdnf {
+  top: -9px;
+}
+
+
   }
 
   @media (max-width: 481px){
@@ -749,6 +803,14 @@ section.first-section {
   font-size: 16px;
 }
 
+.usdnf img {
+  transform: scale(1);
+  width: auto;
+  height: 105%;
+}
+.usdnf {
+  top: -4px;
+}
 
 
   }

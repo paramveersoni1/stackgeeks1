@@ -91,7 +91,7 @@ function navHighlighter() {
 
 $(document).ready(function(){
   $(window).bind('scroll', function() {
-  var navHeight = $( window ).height() + 970;
+  var navHeight = $( window ).height() + 950;
     if ($(window).scrollTop() > navHeight) {
        $('#sdds').addClass('fixed');
        $('#sldfkn').removeClass('cdkjs')
@@ -160,5 +160,7 @@ jQuery.fn.extend({
         });
     }
 });
+
+
 
 

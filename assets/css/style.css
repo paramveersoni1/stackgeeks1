@@ -1003,6 +1003,7 @@ ul.nav-drop a {
 }
 h2.main-title.sdfgsd {
   margin-top: 50px;
+  font-size: 64px;
 }
 .fsdjsdfj {
   background-image: url('../img/dots_graphic.png');
@@ -1141,7 +1142,7 @@ img.sdds {
   font-size: 20px;
   letter-spacing: 0;
   line-height: 24px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 .sdjfhj p {
   color: #FFFFFF;
@@ -1260,4 +1261,63 @@ a.page-scroll {
 
 nav#desktop-nav ul li.active a{
   color: #000;
+}
+
+
+
+.video-section.main-section {
+  position: relative;
+}
+
+.usdnf {
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 111;
+  height: 100%;
+}
+
+.usdnf img {
+  transform: scale(1.05);
+  width: 265px;
+}
+.center{
+  padding: 0;
+}
+
+
+/* .swiper-full-mobile:before {
+content: "";
+width: 265px;
+background: url('../img/mobile.png');
+background-size: 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 0;
+right: 0;
+top: 0px;
+transform: scale(1.05);
+height: 560px;
+z-index: 2;
+margin: auto;
+} */
+.swiper-full-mobile .swiper-slide {
+height: 100%;
+}
+.swiper-full-mobile .swiper-slide img{
+width: 100%;
+height: 530px;
+object-fit: contain;
+opacity: 0.4;
+}
+
+.swiper-slide.swiper-slide-active img {
+   opacity: 1;
+}
+
+#services{
+  overflow: hidden;
+  padding-bottom: 40px;
 }
