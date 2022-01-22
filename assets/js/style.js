@@ -71,7 +71,7 @@ function navHighlighter() {
   let scrollY = window.pageYOffset;
   sections.forEach(current => {
     const sectionHeight = current.offsetHeight;
-    const sectionTop = current.offsetTop - 50;
+    const sectionTop = current.offsetTop - 30;
     sectionId = current.getAttribute("id");
     
 
@@ -101,14 +101,6 @@ $(document).ready(function(){
  });
 });
 
-$(document).ready(function(){
-  $(window).bind('scroll', function() {
-  var navHeight = $( window ).height() + 1500;
-    if ($(window).scrollTop() > navHeight) {
-       $('#desktop-nav').style.display = "none";
-    }
- });
-});
 
 
 
