@@ -91,12 +91,14 @@ function navHighlighter() {
 
 $(document).ready(function(){
   $(window).bind('scroll', function() {
-  var navHeight = $( window ).height() + 600;
+  var navHeight = $( window ).height() + 970;
     if ($(window).scrollTop() > navHeight) {
        $('#sdds').addClass('fixed');
+       $('#sldfkn').removeClass('cdkjs')
     }
     else {
       $('#sdds').removeClass('fixed');
+      $('#sldfkn').addClass('cdkjs')
     }
  });
 });

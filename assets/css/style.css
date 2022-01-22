@@ -891,9 +891,10 @@ section.info-section {
 
   position: fixed;
   bottom: 0;
-  padding: 16px;
+  padding: 8px;
   margin: 0 1%;
-  width: 98%;
+  width: 20%;
+  right: 0;
   margin-bottom: 8px;
   z-index: 11111;
 }
@@ -903,7 +904,8 @@ li.link_name {
 }
 li.link_name img {
   position: absolute;
-  top: -44px;
+  top: -28px;
+  right: 43px;
 }
 
 img.crose {
@@ -1182,7 +1184,7 @@ html{
 
 .fixed {
   position: sticky;
-  top: 188px;
+  top: 0px;
   z-index: 1111;
   width: 100%;
 }

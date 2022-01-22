@@ -36,6 +36,9 @@
   section.last-section {
   width: 100%;
   }
+  section.info-section{
+    width: 25%;
+  }
 
 }
 @media screen and (max-width: 1599px) and (min-width:1350px){
@@ -48,7 +51,9 @@
    section.last-section {
     width: 100%;
     }
-  
+    section.info-section{
+      width: 25%;
+    }
 
 }
 @media screen and (max-width: 1200px) {
@@ -152,6 +157,9 @@
 }
 section.last-section{
   width: 100%;
+}
+section.info-section{
+  width: 29%;
 }
 
 
@@ -294,6 +302,10 @@ nav#desktop-nav{
   position: unset;
   z-index: 1111;
   background: transparent;
+}
+
+section.info-section{
+  width: 40%;
 }
 
 
@@ -563,7 +575,9 @@ nav#desktop-nav{
     line-height: 30px;
     margin-top: 0;
   }
-
+  section.info-section {
+    width: 54%;
+  }
 
   }
 
