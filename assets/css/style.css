@@ -1182,8 +1182,8 @@ html{
 
 .fixed {
   position: sticky;
-  top: 180px;
-  z-index: 1111111;
+  top: 188px;
+  z-index: 1111;
   width: 100%;
 }
 .sidenav {
