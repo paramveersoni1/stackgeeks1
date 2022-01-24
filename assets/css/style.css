@@ -1322,3 +1322,7 @@ opacity: 0.4;
   padding-bottom: 40px;
 }
 
+.d-flex.asdfs {
+  justify-content: space-between;
+}
+
