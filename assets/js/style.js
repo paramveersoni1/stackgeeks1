@@ -91,7 +91,7 @@ function navHighlighter() {
 
 $(document).ready(function(){
   $(window).bind('scroll', function() {
-  var navHeight = $( window ).height() + 950;
+  var navHeight = $( window ).height() + 900;
     if ($(window).scrollTop() > navHeight) {
        $('#sdds').addClass('fixed');
        $('#sldfkn').removeClass('cdkjs')
