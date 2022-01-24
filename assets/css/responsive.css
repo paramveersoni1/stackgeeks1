@@ -190,8 +190,12 @@ section.last-section{
 section.info-section{
   width: 29%;
 }
-.usdnf{
-  left: 12px;
+.usdnf img {
+  width: 257px;
+  height: 528px;
+}
+.usdnf {
+  left: 0;
 }
 h2.main-title.sdfgsd {
   line-height: 60px;
@@ -352,7 +356,11 @@ section.info-section{
 .usdnf img {
   transform: scale(1.1);
   width: auto;
-  height: 533px;
+  height: 474px;
+}
+.usdnf {
+  top: 10px;
+  left: 0;
 }
 
 .sdfd{
@@ -642,7 +650,7 @@ section.info-section{
 .usdnf img {
   transform: scale(1);
   width: auto;
-  height: 580px;
+  height: 404px;
 }
 #services {
   overflow: hidden;
@@ -650,9 +658,14 @@ section.info-section{
 }
 .first-card.sdfd.aos-init.aos-animate {
   position: unset;
+  /*  */
   bottom: 0;
   width: 100%;
   margin: 0;
+}
+.usdnf {
+  top: -10px;
+  left: 0;
 }
 
   }

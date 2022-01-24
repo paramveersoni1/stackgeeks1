@@ -162,7 +162,7 @@ jQuery.fn.extend({
 });
 
 const swiper = new Swiper('.swiper-container', {
-	effect: 'coverflow',
+	// effect: 'coverflow',
 	centeredSlides: true,
   clickable: true,
 	slidesPerView: 1,
