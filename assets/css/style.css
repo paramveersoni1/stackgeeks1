@@ -1272,16 +1272,16 @@ nav#desktop-nav ul li.active a{
 .usdnf {
   position: absolute;
   text-align: center;
-  left: 0px;
-  top: 0px;
+  left: -21px;
+  top: -13px;
   width: 100%;
   z-index: 111;
   height: 100%;
 }
 
 .usdnf img {
-  transform: scale(1.05);
-  width: 265px;
+  width: 290px;
+  height: 585px;
 }
 .center{
   padding: 0;
@@ -1321,3 +1321,4 @@ opacity: 0.4;
   overflow: hidden;
   padding-bottom: 40px;
 }
+
