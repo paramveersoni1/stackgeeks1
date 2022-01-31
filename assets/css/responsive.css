@@ -29,7 +29,7 @@
    .usdnf {
     position: absolute;
     text-align: center;
-    left: -4.7%;
+    left: -5%;
     top: -8px;
   }
    .usdnf img {
@@ -70,7 +70,7 @@
   }
 
 }
-@media screen and (max-width: 1599px) and (min-width:1350px){
+@media screen and (max-width: 1599px) and (min-width:1300px){
   section.first-section {
     padding: 9% 0 40px 0;
    }
@@ -82,6 +82,11 @@
     }
     section.info-section{
       width: 25%;
+    }
+    .usdnf {
+      position: absolute;
+      text-align: center;
+      left: -22px;
     }
 
 }
